@@ -1,0 +1,33 @@
+[submodule "sensors-software"]
+	path = sensors-software
+	url = git@github.com:Marwe/sensors-software.git
+[submodule "feinstaub-monitoring-client-python"]
+	path = feinstaub-monitoring-client-python
+	url = git@github.com:Marwe/feinstaub-monitoring-client-python.git
+[submodule "feinstaub-visualisation-client-python"]
+	path = feinstaub-visualisation-client-python
+	url = git@github.com:opendata-stuttgart/feinstaub-visualisation-client-python.git
+[submodule "particlemap"]
+	path = particlemap
+	url = git@github.com:Marwe/particlemap.git
+[submodule "esp_tools/esptool"]
+	path = esp_tools/esptool
+	url = https://github.com/themadinventor/esptool
+[submodule "esp_tools/esp8266-wiki"]
+	path = esp_tools/esp8266-wiki
+	url = https://github.com/esp8266/esp8266-wiki
+[submodule "esp_tools/ESPlorer"]
+	path = esp_tools/ESPlorer
+	url = https://github.com/4refr0nt/ESPlorer.git
+[submodule "esp_tools/luatool"]
+	path = esp_tools/luatool
+	url = https://github.com/4refr0nt/luatool
+[submodule "esp_tools/nodemcu-firmware"]
+	path = esp_tools/nodemcu-firmware
+	url = https://github.com/nodemcu/nodemcu-firmware.git
+[submodule "meta"]
+	path = meta
+	url = git@github.com:opendata-stuttgart/meta.git
+[submodule "jupyter"]
+	path = jupyter
+	url = git@github.com:opendata-stuttgart/jupyter.git
