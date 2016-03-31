@@ -28,6 +28,9 @@
 [submodule "meta"]
 	path = meta
 	url = git@github.com:opendata-stuttgart/meta.git
+[submodule "meta.wiki"]
+	path = meta.wiki
+	url = git@github.com:opendata-stuttgart/meta.wiki.git
 [submodule "jupyter"]
 	path = jupyter
 	url = git@github.com:opendata-stuttgart/jupyter.git

@@ -16,8 +16,22 @@ I am not sure if this is necessary for every submodule
 
     # cd submod/
     git checkout master
-    
-    
+
+You get detached heads every time, if you do not set to follow a specific remote branch, see https://stackoverflow.com/questions/1777854/git-submodules-specify-a-branch-tag/18799234#18799234
+
+    git branch -u origin/master master
+
+Don't forget to record the new state of your submodule in your parent repo
+
+    cd /path/to/your/parent/repo
+    git add path/to/your/submodule
+    git commit -m "Make submodule tracking a branch"
+
+If you want to update all your submodules following a branch:
+
+    git submodule update --recursive --remote
+
+
 For removal see https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
     
 > Sticking with the example, we’ll remove the lib/billboard module from
